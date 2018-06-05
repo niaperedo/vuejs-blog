@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>VueJS Blog </title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="  styles.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 </head>
 <body>
     <div id="vue-app">
-        <h1>Data Binding</h1>
-        <a v-bind:href="website">The Net Ninja</a><br><br>   
-        <input type="text" v-bind:value="name">
-        <p v-html="websiteTag"></p>
+      <h1>Events</h1>
+      <button v-on:click="add(1)" >Add a year</button>
+      <button v-on:click="substract(1)">Substract a year</button>
+      <button v-on:dblclick="add(10)" >Add 10 years</button>
+      <button v-on:dblclick="substract(10) ">Substract 10 years</button>
+      <p>My age is {{ age }}</p>
+      <div id="canvas" v-on:mousemove="updateXY">
+          {{ x }}, {{ y }}
+      </div>
     </div>
     <script src="app.js"></script>
 </body>
