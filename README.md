@@ -1,8 +1,8 @@
-# vue-cli
+# Vue.js 2 Tutorial 
 
-> A vue-cli tutorial 
+> from The Net Ninja Youtube Channel
 
-## Build Setup
+## vue-cli installation
 
 ``` bash
 # install vue-cli globally
