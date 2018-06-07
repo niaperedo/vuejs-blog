@@ -7,8 +7,8 @@
 <script>
 
 export default {
-  props: {  
-    titl: { 
+  props: {   
+    title: { 
       type: String
     }
   },
