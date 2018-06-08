@@ -10,4 +10,7 @@ npm install -g @vue/cli
 
 # run development server
 npm run serve
+
+# build for production
+NODE_ENV=production npm run build
 ```
