@@ -49,7 +49,7 @@ export default {
             categories: [
             ],
             author: ""
-        }, 
+        },
         authors: [
             'The Net Ninja', 'The Angular Avenger', 'The Vue Vindicator'
         ],
